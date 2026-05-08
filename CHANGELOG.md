@@ -279,10 +279,6 @@ Format: `MAJOR.MINOR.PATCH`
 
 ---
 
-## Contributing
-
-Lihat [CONTRIBUTING.md](CONTRIBUTING.md) untuk panduan kontribusi.
-
 ## License
 
 Project ini menggunakan lisensi MIT. Lihat [LICENSE](LICENSE) untuk detail.

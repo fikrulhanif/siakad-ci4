@@ -1,4 +1,4 @@
-#  Portal Akademik (SIAKAD)
+# Portal Akademik (SIAKAD)
 
 Sistem Informasi Akademik berbasis web yang dibangun menggunakan CodeIgniter 4 dengan template AdminLTE. Sistem ini dirancang untuk mengelola kegiatan akademik perguruan tinggi dengan 3 role utama: Admin, Dosen, dan Mahasiswa.
 
@@ -6,7 +6,7 @@ Sistem Informasi Akademik berbasis web yang dibangun menggunakan CodeIgniter 4 d
 ![CodeIgniter](https://img.shields.io/badge/CodeIgniter-4.x-red)
 ![License](https://img.shields.io/badge/License-MIT-green)
 
-##  Daftar Isi
+## Daftar Isi
 
 - [Fitur Utama](#-fitur-utama)
 - [Tech Stack](#-tech-stack)
@@ -19,9 +19,9 @@ Sistem Informasi Akademik berbasis web yang dibangun menggunakan CodeIgniter 4 d
 - [Kontribusi](#-kontribusi)
 - [Lisensi](#-lisensi)
 
-##  Fitur Utama
+## Fitur Utama
 
-###  Admin
+### Admin
 
 - **Dashboard**: Statistik lengkap (jumlah mahasiswa, dosen, mata kuliah, prodi)
 - **Manajemen Data Master**:
@@ -35,7 +35,7 @@ Sistem Informasi Akademik berbasis web yang dibangun menggunakan CodeIgniter 4 d
 - **Laporan**: Generate laporan akademik
 - **User Management**: Kelola akun pengguna sistem
 
-###  Dosen
+### Dosen
 
 - **Dashboard**: Ringkasan jadwal mengajar dan mahasiswa bimbingan
 - **Jadwal Mengajar**: Lihat jadwal kuliah yang diampu
@@ -47,7 +47,7 @@ Sistem Informasi Akademik berbasis web yang dibangun menggunakan CodeIgniter 4 d
 - **Input Nilai**: Entry nilai mahasiswa per mata kuliah
 - **Cetak Absensi**: Generate daftar hadir mahasiswa
 
-###  Mahasiswa
+### Mahasiswa
 
 - **Dashboard**:
   - Informasi akademik (IPK, SKS lulus, semester)
@@ -82,7 +82,7 @@ Sistem Informasi Akademik berbasis web yang dibangun menggunakan CodeIgniter 4 d
 - **Select2**: Enhanced select boxes
 - **DatePicker**: Bootstrap Datepicker
 
-##  Persyaratan Sistem
+## Persyaratan Sistem
 
 - PHP >= 8.1
 - MySQL >= 5.7 atau MariaDB >= 10.3
@@ -95,13 +95,13 @@ Sistem Informasi Akademik berbasis web yang dibangun menggunakan CodeIgniter 4 d
   - `json`
   - `curl`
 
-## 🚀 Instalasi
+## Instalasi
 
 ### 1. Clone Repository
 
 ```bash
-git clone https://github.com/username/portal-akademik.git
-cd portal-akademik
+git clone https://github.com/fikrulhanif/siakad-ci4.git
+cd siakad-ci4
 ```
 
 ### 2. Install Dependencies
@@ -201,7 +201,7 @@ Konfigurasi routing ada di `app/Config/Routes.php`
 
 Konfigurasi filter di `app/Config/Filters.php`
 
-##  Struktur Database
+## Struktur Database
 
 ### Tabel Utama
 
@@ -230,7 +230,7 @@ krs (1) -----> (N) detail_krs
 detail_krs (1) -----> (1) nilai
 ```
 
-##  Role & Hak Akses
+## Role & Hak Akses
 
 ### Default Login Credentials
 
@@ -261,10 +261,10 @@ Sistem menggunakan Role-Based Access Control (RBAC) dengan middleware:
 
 Implementasi ada di `app/Filters/RoleFilter.php`
 
-##  Struktur Folder
+## Struktur Folder
 
 ```
-portal-akademik/
+siakad-ci4/
 ├── app/
 │   ├── Config/          # Konfigurasi aplikasi
 │   ├── Controllers/     # Controller (Admin, Dosen, Mahasiswa)
@@ -284,7 +284,7 @@ portal-akademik/
 └── spark                # CLI tool
 ```
 
-##  Development
+## Development
 
 ### Menjalankan Migration
 
@@ -319,7 +319,7 @@ CI_ENVIRONMENT = development
 
 Aktifkan debug toolbar di `app/Config/Toolbar.php`
 
-##  Troubleshooting
+## Troubleshooting
 
 ### Error: "Class not found"
 
@@ -355,4 +355,4 @@ Project ini menggunakan lisensi MIT. Lihat file [LICENSE](LICENSE) untuk detail.
 
 ---
 
- Jika project ini bermanfaat, jangan lupa berikan star!
+Jika project ini bermanfaat, jangan lupa berikan star!
